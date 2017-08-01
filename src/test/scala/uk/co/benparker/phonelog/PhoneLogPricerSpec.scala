@@ -4,7 +4,7 @@ import org.scalatest.{MustMatchers, WordSpec}
 
 class PhoneLogPricerSpec extends WordSpec with MustMatchers {
 
-  "Phone Log" must {
+  "Phone Log Pricer" must {
 
     "price single entry less than 5 minutes" in {
       val log = "456-123-101,00:01:07"
